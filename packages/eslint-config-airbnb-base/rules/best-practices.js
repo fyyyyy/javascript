@@ -149,7 +149,7 @@ module.exports = {
 
     // disallow use of new operator when not part of the assignment or comparison
     // => we need new for 3rd party APIS
-    'no-new': 'warn',
+    'no-new': 'off',
 
     // disallow use of new operator for Function object
     'no-new-func': 'error',
